@@ -1,3 +1,5 @@
-filename = input("Input the Filename: ")
-if filename[-3:]=='.py':
-    print("The extension of the file is : 'Python'")
+fn= input("The Filename: ")
+
+f = fn.split(".")
+
+print ("Extension of the file is : " + f[-1])
